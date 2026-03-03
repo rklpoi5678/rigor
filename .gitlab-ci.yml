@@ -10,7 +10,7 @@ cache:
   key:
     files:
       - pnpm-lock.yaml
-    paths:
+  paths:
       - .pnpm-store
 
 install_dependencies:
