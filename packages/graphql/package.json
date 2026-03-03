@@ -1,0 +1,19 @@
+{
+  "name": "@rigor/graphql",
+  "version": "1.0.0",
+  "main": "generated/index.ts",
+  "exports": {
+    ".": "./generated/index.ts"
+  },
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "dependencies": {
+    "graphql": "^16.13.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^6.1.2",
+    "@graphql-codegen/typescript": "^5.0.8",
+    "@graphql-codegen/typescript-operations": "^5.0.8"
+  }
+}
